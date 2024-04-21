@@ -6,4 +6,4 @@ TRL train script, Automatic support DDP
 
 How to run:
 
- python -m torch.distributed.launch trl_train_completation.py or accelerate launch trl_train_completation.py
+  accelerate launch trl_train_completation.py
