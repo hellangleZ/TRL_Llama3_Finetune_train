@@ -40,8 +40,6 @@ model = AutoModelForCausalLM.from_pretrained("/aml/new",
                                              attn_implementation="flash_attention_2"
                                             )
 
-#tp
-model.config.pretraining_tp = 2
 
 
 #lora配置
