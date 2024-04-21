@@ -40,6 +40,8 @@ model = AutoModelForCausalLM.from_pretrained("/aml/new",
                                              attn_implementation="flash_attention_2"
                                             )
 
+#tp != 1不等于1的值将激活更准确但更慢的线性层计算，更好地匹配原始概率，前提是了解之前的pretain）TP配置，不懂就写1
+model.config.pretraining_tp = 2
 
 
 #lora配置
