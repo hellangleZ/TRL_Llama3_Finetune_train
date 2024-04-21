@@ -1,3 +1,4 @@
+accelerate               0.29.2
 flash-attn               2.4.2
 huggingface-hub          0.22.2
 safetensors              0.4.2
@@ -7,4 +8,4 @@ tqdm                     4.66.2
 transformers             4.39.2
 triton                   2.2.0
 urllib3                  1.26.18
-
+datasets                 2.19.0
