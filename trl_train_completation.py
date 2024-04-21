@@ -32,7 +32,7 @@ device_string = PartialState().process_index
 device_map={'':device_string}
 
 #模型load
-tokenizer = AutoTokenizer.from_pretrained("/aml/new")
+tokenizer = AutoTokenizer.from_pretrained("/aml/new") #Your model local dir, or huggingface repo-id
 model = AutoModelForCausalLM.from_pretrained("/aml/new",
                                              quantization_config=bnb_config,
                                              device_map=device_map,
