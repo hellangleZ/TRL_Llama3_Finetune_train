@@ -1,0 +1,10 @@
+flash-attn               2.4.2
+huggingface-hub          0.22.2
+safetensors              0.4.2
+tokenizers               0.15.2
+torch                    2.2.1+cu121
+tqdm                     4.66.2
+transformers             4.39.2
+triton                   2.2.0
+urllib3                  1.26.18
+
